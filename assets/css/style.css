@@ -1,0 +1,24 @@
+h1 {
+    font-size: 36px;
+    background-color: navy;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+}
+
+p{
+    margin: 10px auto 10px auto;
+    padding: 10px;
+}
+
+body{
+    background-color:#f2fa7e;
+}
+
+#crystal1, #crystal2, #crystal3, #crystal4 {
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+}

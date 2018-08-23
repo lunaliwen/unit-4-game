@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 
+</head>
+<body>
+    
+    <h1>Crystal Collector!</h1>
+
+    <p>You will be given a random number at the start of the game.</p> 
+    <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score. </p> 
+    <p>You win the game by matching your total score to the random number. You loose the game if your total score goes over the random number.</p> 
+    <p>The value of each crystal is hidden form you until you cilck on it.</p> 
+    <p>Each time when the game starts, the game will change the values of each crystal.</p>
+
+    <div id = "targetNum"></div>
+    <div id = "wins"></div>
+    <div id = "losses"></div>
+    <br>
+    <div class = "crystals">
+        <img id="crystal1" src="http://static1.squarespace.com/static/5644b453e4b0552eb81185b6/5646246ce4b0a33eccdedd2d/56521e66e4b058e88fca5228/1449169817525/?format=1000w">
+        <img id="crystal2" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg">
+        <img id="crystal3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Amethystemadagascar2.jpg/1200px-Amethystemadagascar2.jpg">
+        <img id="crystal4" src="https://vignette.wikia.nocookie.net/marvel-contestofchampions/images/1/1c/2-Star_Crystal.png/revision/latest?cb=20150825213642">
+    </div>
+    <br>
+    <div id = "yourScore"></div>
+    
+ <!-- Adds a link to the JavaScript file. Loaded at the bottom so it waits for the HTML content to display first. If you put this at the top it will crash, because the HTML IDs won"t exist yet.--> 
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
