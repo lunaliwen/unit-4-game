@@ -30,7 +30,6 @@ startGame();
 
 //When a crystal is clicked, the assigned value will be added to yourScore
 yourScore += crystalVal;
-alert(yourScore);
 $("#yourScore").text("Your total score:" + yourScore);
 
 //When yourScore === targetNum, you win (alert, win++)
@@ -57,7 +56,6 @@ else if (yourScore > targetNum) {
 
 //When a crystal is clicked, the assigned value will be added to yourScore
 yourScore += crystalVal0;
-alert(yourScore);
 $("#yourScore").text("Your total score:" + yourScore);
 
 //When yourScore === targetNum, you win (alert, win++)
@@ -84,7 +82,6 @@ else if (yourScore > targetNum) {
 
 //When a crystal is clicked, the assigned value will be added to yourScore
 yourScore += crystalVal1;
-alert(yourScore);
 $("#yourScore").text("Your total score:" + yourScore);
 
 //When yourScore === targetNum, you win (alert, win++)
@@ -111,7 +108,6 @@ else if (yourScore > targetNum) {
 
 //When a crystal is clicked, the assigned value will be added to yourScore
 yourScore += crystalVal2;
-alert(yourScore);
 $("#yourScore").text("Your total score:" + yourScore);
 
 //When yourScore === targetNum, you win (alert, win++)
